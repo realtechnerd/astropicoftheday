@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+.s {
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.Header {
+    background: linear-gradient(to right, #141e30, #243b55);
+    font-family: Poppins;
+    padding: 15px;
+    text-align: center; 
+    color: #fff;
+    border-radius: 1rem;
+    @extend .s;
+}
+.Container {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+#astroimg {
+    border-radius: 1rem;
+}
+@media only screen and (max-width: 600px) {
+    .Container {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    #title {
+        font-size: 21pt;
+        text-align: center;
+    }
+}
+.astrotext {
+    font-family: Rubik;
+    padding: 20px;
+    border-radius: 1rem;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    margin-bottom: 5px;
+    color: #141e30;
+}
+.caption {
+    font-family: Rubik;
+    margin-top: 5px;
+    font-size: 15pt;
+    color: #141e30;
+}
+.astrotext p {
+    margin-top: 5px;
+}
+#title {
+    font-family: Poppins;
+    padding: 5px;   
+    color: #141e30;
+}
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #000;
+    }
+    #title {
+        color: #f1f1f1;
+    }
+    .astrotext {
+        background-color: #141e30;
+        color: #f1f1f1;
+    }
+    .caption {
+        color: #f1f1f1;
+    }
+}
