@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/astropicoftheday/static/css/main.f3c22c40.chunk.css",
+    "main.js": "/astropicoftheday/static/js/main.18dcf2a8.chunk.js",
+    "main.js.map": "/astropicoftheday/static/js/main.18dcf2a8.chunk.js.map",
+    "runtime-main.js": "/astropicoftheday/static/js/runtime-main.8f763182.js",
+    "runtime-main.js.map": "/astropicoftheday/static/js/runtime-main.8f763182.js.map",
+    "static/js/2.9a10de44.chunk.js": "/astropicoftheday/static/js/2.9a10de44.chunk.js",
+    "static/js/2.9a10de44.chunk.js.map": "/astropicoftheday/static/js/2.9a10de44.chunk.js.map",
+    "index.html": "/astropicoftheday/index.html",
+    "static/css/main.f3c22c40.chunk.css.map": "/astropicoftheday/static/css/main.f3c22c40.chunk.css.map",
+    "static/js/2.9a10de44.chunk.js.LICENSE.txt": "/astropicoftheday/static/js/2.9a10de44.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8f763182.js",
+    "static/js/2.9a10de44.chunk.js",
+    "static/css/main.f3c22c40.chunk.css",
+    "static/js/main.18dcf2a8.chunk.js"
+  ]
+}
