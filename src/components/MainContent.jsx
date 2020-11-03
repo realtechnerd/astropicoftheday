@@ -1,7 +1,13 @@
 import React, {useState, useEffect} from 'react'
 
-export default function MainContent() {
+export default function MainContent() {     
     const [data, setData] = useState({})
+    const handleErrors = response => {
+        if (!response.ok) {
+            throw Error(response.statusText);
+        }
+        return response;
+    }
     useEffect(() => {
         fetch(`https://api.nasa.gov/planetary/apod?api_key=${process.env.REACT_APP_API_KEY}`)
             .then(res => res.json())
@@ -10,6 +16,8 @@ export default function MainContent() {
                 setData(data)
                 console.log(data);
             })
+            .then(handleErrors)
+            .catch(error => alert("Uh-oh. The server isn't responding. Please try again later."));
         }, [])
     return (
         <div className='Container'>
